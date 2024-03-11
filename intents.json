@@ -1,0 +1,138 @@
+{
+    "intents": [
+      {
+        "tag": "greeting",
+        "patterns": [
+          "Hi",
+          "Hey",
+          "How are you",
+          "Is anyone there?",
+          "Hello",
+          "Good day"
+        ],
+        "responses": [
+          "Hey :-)",
+          "Hello, thanks for visiting",
+          "Hi there, what can I do for you?",
+          "Hi there, how can I help?"
+        ]
+      },
+      {
+        "tag": "goodbye",
+        "patterns": ["Bye", "See you later", "Goodbye"],
+        "responses": [
+          "See you later, thanks for visiting",
+          "Have a nice day",
+          "Bye! Come back again soon."
+        ]
+      },
+      {
+        "tag": "thanks",
+        "patterns": ["Thanks", "Thank you", "That's helpful", "Thank's a lot!"],
+        "responses": ["Happy to help!", "Any time!", "My pleasure"]
+      },
+      {
+        "tag": "matrix_addition",
+        "patterns": [
+          "I'm getting an error in matrix addition",
+          "Matrix addition error",
+          "Error in addMatrices() function"
+        ],
+        "responses": [
+          "It seems there's an issue with matrix addition. Let's troubleshoot.",
+          "I can help you with matrix addition errors. What's the specific problem you're facing?"
+        ]
+      },
+      {
+        "tag": "incorrect_input_format",
+        "patterns": [
+          "Incorrect Input Format"
+        ],
+        "responses": [
+          "Ensure that the input format matches the specified data type and precision."
+        ]
+      },
+      {
+        "tag": "mismatched_data_types",
+        "patterns": [
+          "Missing or Mismatched Data Types"
+        ],
+        "responses": [
+          "Double-check and ensure that the data types of input elements and matrices match."
+        ]
+      },
+      {
+        "tag": "mismatched_dimensions",
+        "patterns": [
+          "Mismatched Dimensions (Matrix Size)"
+        ],
+        "responses": [
+          "Confirm that both input matrices have identical dimensions for matrix addition."
+        ]
+      },
+      {
+        "tag": "logic_error",
+        "patterns": [
+          "Logic Error in addMatrices() Function"
+        ],
+        "responses": [
+          "Review the logic inside the addMatrices() function for accurate element-wise addition. Be cautious of off-by-one errors."
+        ]
+      },
+      {
+        "tag": "missing_initialization",
+        "patterns": [
+          "Missing Initialization of Result Matrix"
+        ],
+        "responses": [
+          "Initialize the result matrix before performing matrix addition to avoid undefined behavior."
+        ]
+      },
+      {
+        "tag": "incorrect_display_format",
+        "patterns": [
+          "Incorrect Matrix Display Format"
+        ],
+        "responses": [
+          "Adjust the display format in the displayMatrix() function to match the data type and appropriate spacing."
+        ]
+      },
+      {
+        "tag": "missing_error_handling",
+        "patterns": [
+          "Missing Error Handling for Input or Operation Errors"
+        ],
+        "responses": [
+          "Implement error handling mechanisms to handle issues such as incorrect input, insufficient memory allocation, or invalid matrix operations."
+        ]
+      },
+      {
+        "tag": "inadequate_memory_allocation",
+        "patterns": [
+          "Inadequate Memory Allocation for Large Matrices"
+        ],
+        "responses": [
+          "Use dynamic memory allocation functions like malloc or calloc for large matrices to prevent stack overflow issues."
+        ]
+      },
+      {
+        "tag": "missing_memory_deallocation",
+        "patterns": [
+          "Missing Memory Deallocation"
+        ],
+        "responses": [
+          "Free allocated memory using free() to prevent memory leaks after matrix operations."
+        ]
+      },
+      {
+        "tag": "unhandled_exception",
+        "patterns": [
+          "Unhandled Exception or Crashes"
+        ],
+        "responses": [
+          "Implement exception handling to gracefully handle exceptional conditions, such as memory allocation failures or invalid input."
+        ]
+      }
+    ]
+  }
+  
