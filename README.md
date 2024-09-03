@@ -1,7 +1,7 @@
 # Special Topics - 2
 Special project completed during the 3rd year of my undergrad: Programming Assistance Chatbot with Neural Networks and NLP
 
-Developed an AI-powered chatbot using PyTorch and NLP, excelling in real-time error detection and resolution.
+Developed an AI-powered chatbot using PyTorch and NLP that aids in answering C programming-related queries, using PyTorch for neural network training with ReLU and optimizer adjustments for effective error handling.
 Leveraged the 1st year’s Fundamentals of Programming Lab’s C programs for the dataset. Final epoch loss range: 0.0015 - 0.0043.
 
 This project focuses on the development of a chatbot using PyTorch and Natural Language Processing techniques. The primary goal was to build a conversational agent capable of responding to user queries in a meaningful way. The project utilized a dataset (the 1st year Fundamentals of Programming Lab's C Programs) containing intents and their corresponding patterns and responses, stored in a JSON format.
